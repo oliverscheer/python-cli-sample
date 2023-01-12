@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "olivers_tools_library"
+version = "0.0.1"
+authors = [
+  { name="Oliver Scheer", email="oliver.scheer@hotmail.de" },
+]
+description = "The library of Oliver Scheer"
+readme = "./oliverstools/README.md"
+license = { file="./jdf_lib/LICENSE" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
