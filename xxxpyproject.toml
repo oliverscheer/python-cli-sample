@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mycliapp"
+version = "0.0.1"
+authors = [
+  { name="Oliver Scheer", email="oliver.scheer@hotmail.de" },
+]
+description = "The CLI of Oliver Scheer"
+readme = "mycliapp/README.md"
+license = { file="mycliapp/LICENSE" }
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/oliverscheer/python-cli-sample"
+"Bug Tracker" = "https://github.com/oliverscheer/python-cli-sample/issues"

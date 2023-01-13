@@ -1,8 +1,5 @@
 from click.testing import CliRunner
-
 from ..commands.circle import area, diameter, circumference
-
-# from jdf_cli.commands.config import list_all
 
 
 def test_cli_circle_area_short_version():

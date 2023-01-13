@@ -8,7 +8,7 @@ from ..mathtools.circle import Circle
 
 
 class TestCircle(unittest.TestCase):
-    # @patch("packages.jdf_lib.activedirectory.active_directory_helper.GraphClient.get")
+    # @patch("packages.oliverstools.activedirectory.active_directory_helper.GraphClient.get")
     def test_passing_string_to_constructor(self):
 
         # Arrange

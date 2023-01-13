@@ -1,1 +1,1 @@
-from .mathtools import Circle, Rectangle
+from .mathtools import Circle, Rectangle  # noqa:F401

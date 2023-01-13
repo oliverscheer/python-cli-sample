@@ -1,0 +1,4 @@
+flake8-variables-names
+black
+tox
+pytest-cov
