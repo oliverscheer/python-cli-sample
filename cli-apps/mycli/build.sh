@@ -10,3 +10,5 @@ tar -xzf dist/mycli-0.0.1.tar.gz
 cd ..
 
 mycli --help
+mycli text upper "Hello World!"
+mycli text lower "Hello World!"

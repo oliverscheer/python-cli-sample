@@ -13,7 +13,7 @@ def text_commands():
 
 
 @text_commands.command(name="upper")
-@click.option("--input-text", "-i", required=True, help="Input text")
+@click.argument("input-text")
 def upper(
     input_text: str,
 ):
@@ -25,7 +25,7 @@ def upper(
 
 
 @text_commands.command(name="lower")
-@click.option("--input-text", "-i", required=True, help="Input text")
+@click.argument("input-text")
 def lower(
     input_text: str,
 ):
