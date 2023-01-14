@@ -4,10 +4,7 @@ Main of the cli
 import click
 
 
-# from .commands.rect import rect
-# from .commands.circle import circle
-# from .commands import text_commands
-from .commands.text_commands import text_commands
+from .commands import text_commands, circle_commands
 
 
 @click.group(help="My CLI tool")
@@ -17,7 +14,7 @@ def cli():
     """
 
 
-# cli.add_command(circle)
+cli.add_command(circle_commands)
 # cli.add_command(rect)
 cli.add_command(text_commands)
 
