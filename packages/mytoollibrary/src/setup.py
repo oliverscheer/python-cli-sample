@@ -7,7 +7,7 @@ with open("requirements.txt") as f:
     lib_dependencies = f.read().splitlines()
 
 setup(
-    name="oliverstools",
+    name="mytoollibrary",
     fullname="",
     version="0.1",
     description="Library for awesome features",

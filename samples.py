@@ -2,8 +2,8 @@
 Some samples for the demo
 """
 
-from oliverstools.mathtools.rectangle import Rectangle
-from oliverstools.mathtools.circle import Circle
+from mytoollibrary.mathtools.rectangle import Rectangle
+from mytoollibrary.mathtools.circle import Circle
 
 print("Some Math Samples")
 

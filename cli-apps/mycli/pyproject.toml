@@ -3,15 +3,14 @@ requires = ["setuptools>=65.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mycliapp"
+name = "mycli"
 version = "0.0.1"
 authors = [
     { name = "Oliver Scheer", email = "oliver.scheer@hotmail.de" }
 ]
-description = "My package description"
+description = "An example cli application"
 readme = "README.md"
 requires-python = ">=3.7"
-keywords = ["CLI", "Packages"]
 license = {text = "MIT"}
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -24,5 +23,9 @@ dependencies = [
 ]
 
 [project.scripts]
-my-cli-app = "mycliapp.cli:cli"
-my-other-cli-app = "mycliapp.cli:another_function"
+mycli = "cli.cli:main"
+myothercli = "cli.cli:another_function"
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"

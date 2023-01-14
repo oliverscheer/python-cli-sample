@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mytoollibrary"
+version = "0.0.1"
+authors = [
+    { name = "Oliver Scheer", email = "oliver.scheer@hotmail.de" }
+]
+description = "My tool library description"
+readme = "./README.md"
+requires-python = ">=3.7"
+keywords = ["CLI", "Packages"]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    'importlib-metadata; python_version<"3.8"',
+]

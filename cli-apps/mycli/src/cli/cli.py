@@ -26,5 +26,9 @@ def another_function():
     print("Hello, World!")
 
 
-if __name__ == "__main__":
+def main():
     cli()
+
+
+if __name__ == "__main__":
+    main()
