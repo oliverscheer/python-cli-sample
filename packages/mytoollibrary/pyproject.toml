@@ -10,7 +10,7 @@ authors = [
 ]
 description = "My tool library description"
 readme = "./README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.10"
 keywords = ["CLI", "Packages"]
 license = {text = "MIT"}
 classifiers = [

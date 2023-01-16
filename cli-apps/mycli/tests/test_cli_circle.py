@@ -1,5 +1,13 @@
+# import sys
 from click.testing import CliRunner
-from ..commands.circle import area, diameter, circumference
+
+# sys.path.append("../src/cli")
+# sys.path.append("../external-packages")
+
+# pylint: disable=import-error disable=wrong-import-position
+from cli.commands.circle_commands import area, diameter, circumference
+
+# pylint: enable=import-error enable=wrong-import-position
 
 
 def test_cli_circle_area_short_version():

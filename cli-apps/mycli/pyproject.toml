@@ -19,6 +19,7 @@ classifiers = [
 ]
 dependencies = [
     "click",
+    "mytoollibrary",
     'importlib-metadata; python_version<"3.8"',
 ]
 
@@ -29,3 +30,23 @@ myothercli = "cli.cli:another_function"
 [project.urls]
 "Homepage" = "https://github.com/pypa/sampleproject"
 "Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+
+[tool.poetry]
+name = "mycli"
+version = "0.1.0"
+description = "The description of the package"
+
+license = "MIT"
+
+authors = [
+    "Sébastien Eustace <sebastien@eustace.io>"
+]
+
+repository = "https://github.com/python-poetry/poetry"
+homepage = "https://python-poetry.org"
+
+# README file(s) are used as the package description
+readme = ["README.md", "LICENSE"]
+
+# Keywords (translated to tags on the package index)
+keywords = ["packaging", "poetry"]
