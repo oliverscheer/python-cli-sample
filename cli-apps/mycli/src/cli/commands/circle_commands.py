@@ -4,7 +4,7 @@ Math functions, using external packages
 import sys
 import click
 
-sys.path.append("external-packages")
+sys.path.append("external_packages")
 # pylint: disable=import-error disable=wrong-import-position
 from mytoollibrary import (
     mathtools,

@@ -3,7 +3,7 @@
 ```bash
 # import my external library
 
-pip install ../../packages/mytoollibrary/dist/mytoollibrary-0.0.1-py3-none-any.whl -t external-packages/mytoollibrary
+pip install ../../packages/mytoollibrary/dist/mytoollibrary-0.0.1-py3-none-any.whl -t external_packages/mytoollibrary
 
 ```
 
@@ -53,7 +53,7 @@ python -m venv .env/create-cli-package
 cp ../../packages/mytoollibrary/dist/mytoollibrary-0.0.1-py3-none-any.whl .
 pip install mytoollibrary-0.0.1-py3-none-any.whl --force-reinstall
 
-pip install ../../packages/mytoollibrary/dist/mytoollibrary-0.0.1-py3-none-any.whl -t external-packages/mytoollibrary
+pip install ../../packages/mytoollibrary/dist/mytoollibrary-0.0.1-py3-none-any.whl -t external_packages/mytoollibrary
 
 
 pip install build
