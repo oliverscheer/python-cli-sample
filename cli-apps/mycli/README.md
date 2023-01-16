@@ -1,7 +1,7 @@
 # MY CLI Tool
 
 ```bash
-# import external library
+# import my external library
 
 pip install ../../packages/mytoollibrary/dist/mytoollibrary-0.0.1-py3-none-any.whl -t external-packages/mytoollibrary
 
