@@ -4,7 +4,9 @@ Tests for circle class
 import math as M
 import unittest
 import pytest
-from ..mathtools.circle import Circle
+
+# from ...mathtools.circle import Circle
+from mathtools import Circle
 
 
 class TestCircle(unittest.TestCase):

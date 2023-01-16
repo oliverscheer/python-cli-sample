@@ -18,11 +18,11 @@ cd ..
 pip install dist/mycli-0.0.1-py3-none-any.whl --force-reinstall
 
 
-mycli --help
+# mycli --help
 
-# Internal tests
-mycli text upper "Hello World!"
-mycli text lower "Hello World!"
+# # Internal tests
+# mycli text upper "Hello World!"
+# mycli text lower "Hello World!"
 
-# Calling referenced package functions
-mycli circle area -r 3.0
+# # Calling referenced package functions
+# mycli circle area -r 3.0

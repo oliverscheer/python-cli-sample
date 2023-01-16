@@ -2,14 +2,29 @@
 
 ROOT_FOLDER="/workspaces/python-cli-sample"
 
-echo "Build Packages First"
+echo "Run tests for packages"
+cd "$ROOT_FOLDER/packages/mytoollibrary"
+pytest .
 
-cd packages/mytoollibrary
+
+echo "Run tests for CLI app"
+cd "$ROOT_FOLDER/cli-apps/mycli"
+pytest .
+
+
+echo "Build Packages First"
+cd "$ROOT_FOLDER/packages/mytoollibrary"
 ./build.sh
 
-cd $ROOT_FOLDER
 
 echo "Build CLI apps"
-
-cd cli-apps/mycli
+cd "$ROOT_FOLDER/cd cli-apps/mycli"
 ./build.sh
+
+cd "$ROOT_FOLDER"
+# Internal tests
+mycli text upper "Hello World!"
+mycli text lower "Hello World!"
+
+# Calling referenced package functions
+mycli circle area -r 3.0
